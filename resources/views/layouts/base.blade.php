@@ -43,9 +43,9 @@
     <body class="defult-home">
         
         <!--Preloader area start here-->
-        <div id="loader" class="loader">
+        {{-- <div id="loader" class="loader">
             <div class="loader-container"></div>
-        </div>
+        </div> --}}
         <!--Preloader area End here--> 
      
         <!-- Main content Start -->

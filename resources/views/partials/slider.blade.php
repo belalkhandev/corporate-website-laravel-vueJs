@@ -28,11 +28,11 @@
                     <ul class="slider-btn wow fadeInRight" data-wow-delay="200ms" data-wow-duration="3000ms">
                         <li><a class="readon learn-more slider-btn" href="about.html">Free Consultation</a></li>
                         <li>
-                            <div class="slider-video">
+                            {{-- <div class="slider-video">
                                 <a class="popup-videos" href="https://www.youtube.com/watch?v=atMUy_bPoQI">
                                 <i class="fa fa-play"></i>
                                 </a>
-                            </div>
+                            </div> --}}
                         </li>
                     </ul>
                 </div>
@@ -55,7 +55,7 @@
                    </div>
                    <div class="services-content">
                        <div class="services-text">
-                           <h3 class="services-title"><a href="web-development.html">IT Management</a></h3>
+                           <h3 class="services-title"><a href="web-development.html">Creative</a></h3>
                        </div>
                        <div class="services-desc">
                            <p>
@@ -74,7 +74,7 @@
                    </div>
                    <div class="services-content">
                        <div class="services-text">
-                           <h3 class="services-title"><a href="web-development.html">Cloud Services</a></h3>
+                           <h3 class="services-title"><a href="web-development.html">Professional</a></h3>
                        </div>
                        <div class="services-desc">
                            <p>
@@ -93,7 +93,7 @@
                    </div>
                    <div class="services-content">
                        <div class="services-text">
-                           <h3 class="services-title"><a href="web-development.html">Data Security</a></h3>
+                           <h3 class="services-title"><a href="web-development.html">Experienced</a></h3>
                        </div>
                        <div class="services-desc">
                            <p>
@@ -112,7 +112,7 @@
                    </div>
                    <div class="services-content">
                        <div class="services-text">
-                           <h3 class="services-title"><a href="web-development.html">Machine Learning</a></h3>
+                           <h3 class="services-title"><a href="web-development.html">Enthusiastic</a></h3>
                        </div>
                        <div class="services-desc">
                            <p>
