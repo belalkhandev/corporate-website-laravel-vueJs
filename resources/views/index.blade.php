@@ -323,7 +323,7 @@
                 Our Recent Launched Projects Available on Market
             </h2>                       
         </div>
-            <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="3" data-md-device-nav="true" data-md-device-dots="false">
+            <div class="rs-carousel owl-carousel" data-loop="true" data-items="2" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="2" data-md-device-nav="true" data-md-device-dots="false">
                 <div class="project-item">
                     <div class="project-img">
                         <a href="#"><img src="assets/images/project/main-home/1.jpg" alt="images"></a>
@@ -385,7 +385,7 @@
 
 
     <!-- Team Section Start -->
-    <div id="rs-team" class="rs-team onepage-team change-bg pt-120 pb-120 md-pt-90 md-pb-90"> 
+    {{-- <div id="rs-team" class="rs-team onepage-team change-bg pt-120 pb-120 md-pt-90 md-pb-90"> 
         <div class="sec-title2 text-center mb-30">
             <span class="sub-text">Team</span>
             <h2 class="title">
@@ -619,11 +619,11 @@
                 </div>
             </div>
         </div> 
-    </div>
+    </div> --}}
     <!-- Team Section End -->
 
     <!-- Testimonial Section Start -->
-    <div class="rs-testimonial main-home style2 bg5 pt-120 pb-120 md-pt-80 md-pb-80">
+    {{-- <div class="rs-testimonial main-home style2 bg5 pt-120 pb-120 md-pt-80 md-pb-80">
         <div class="container">
         <div class="sec-title2 text-center mb-45">
             <span class="sub-text white-color">Testimonial</span>
@@ -757,7 +757,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Testimonial Section End -->
 
     <!-- Blog Section Start -->
@@ -959,13 +959,13 @@
             </div>
         </div>
         <div class="map-canvas pt-120 md-pt-70">
-            <iframe src="https://maps.google.com/maps?q=rstheme&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"></iframe>
+            <iframe src="https://maps.google.com/maps?q=datatrix&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=&amp;output=embed"></iframe>
         </div> 
     </div>
     <!-- Contact Section Start -->
 
     <!-- Partner Start -->
-    <div class="rs-partner pt-80 pb-70">
+    {{-- <div class="rs-partner pt-80 pb-70">
         <div class="container">
             <div class="rs-carousel owl-carousel" data-loop="true" data-items="5" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="2" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="3" data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="5" data-md-device-nav="false" data-md-device-dots="false">
                 <div class="partner-item">
@@ -1042,6 +1042,6 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Partner End -->
 @endsection

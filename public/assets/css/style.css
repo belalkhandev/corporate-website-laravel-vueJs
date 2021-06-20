@@ -934,7 +934,7 @@ blockquote cite:before {
   border-radius: 30px 30px 30px 30px;
 }
 .readon.lets-talk:hover {
-  background-color: #a80e0e;
+  background-color: #910f0f;
   color: #ffffff;
 }
 .readon.buy-now {
@@ -1720,7 +1720,7 @@ blockquote cite:before {
   font-weight: 700;
   line-height: 1.4;
   color: #0a0a0a;
-  max-width: 490px;
+  max-width: 560px;
   margin: 0 auto;
 }
 .sec-title2 .title.white-color {
@@ -3123,6 +3123,7 @@ body .search-modal .close:hover {
   line-height: 84px;
   font-weight: 700;
   color: #ffffff;
+  text-shadow: 1px 1px 0px #ffffff;
   margin-bottom: 40px;
 }
 .rs-slider.style1 .slider-content .sl-desc {
@@ -3147,8 +3148,21 @@ body .search-modal .close:hover {
 }
 .rs-slider.style1 .slider-content {
   background-size: cover;
+  position: relative;
   background-position: center;
   background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.rs-slider.style1 .slider-content::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #0000004a;
+  z-index: -1;
 }
 .rs-slider.style1 .owl-nav .owl-next,
 .rs-slider.style1 .owl-nav .owl-prev {

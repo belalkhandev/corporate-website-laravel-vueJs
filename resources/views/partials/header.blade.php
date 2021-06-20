@@ -60,7 +60,7 @@
                                         <li><a href="#rs-about">About</a></li>
                                         <li><a href="#rs-services">Services</a></li>
                                         <li><a href="#rs-portfolio">Portfolio</a></li>
-                                        <li><a href="#rs-team">Team</a></li>
+                                        {{-- <li><a href="#rs-team">Team</a></li> --}}
                                         <li><a href="#rs-blog">Blog</a></li>
                                         <li><a href="#rs-contact">Contact</a></li>
                                     </ul> <!-- //.nav-menu -->
